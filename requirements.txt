@@ -11,3 +11,4 @@ scikit-learn
 xgboost
 yellowbrick
 Pillow
+nbformat==5.x.x
