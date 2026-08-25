@@ -1409,8 +1409,8 @@
           </layout-options>
           <size maxheight='750' minheight='750' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='27' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97982' id='26' param='vert' type-v2='layout-flow' w='98934' x='533' y='1009'>
+            <zone h='100000' id='29' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97982' id='28' param='vert' type-v2='layout-flow' w='98934' x='533' y='1009'>
                 <zone h='5170' id='7' type-v2='title' w='88267' x='533' y='1009'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -1704,8 +1704,8 @@
           </layout-options>
           <size maxheight='1450' minheight='1450' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='45' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='99200' id='44' param='vert' type-v2='layout-flow' w='98934' x='533' y='400'>
+            <zone h='100000' id='47' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='46' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone h='2050' id='29' type-v2='title' w='98934' x='533' y='400'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -1927,11 +1927,6 @@
           </strip>
         </edge>
       </cards>
-      <viewpoint>
-        <highlight field='[federated.15zuz3g19p58go1eum9kl0vwgsky].[sum:Quantity:qk]' type='size'>
-          <bucket-selection />
-        </highlight>
-      </viewpoint>
       <simple-id uuid='{F960FD79-CB48-460B-8BB0-31908E934DA9}' />
     </window>
     <window class='worksheet' name='Top Customers by Revenue'>
@@ -2006,9 +2001,6 @@
       <viewpoints>
         <viewpoint name='Geographic Sales Distribution'>
           <zoom type='entire-view' />
-          <highlight field='[federated.15zuz3g19p58go1eum9kl0vwgsky].[sum:Quantity:qk]' type='size'>
-            <bucket-selection />
-          </highlight>
         </viewpoint>
         <viewpoint name='Monthly Revenue Trend'>
           <zoom type='entire-view' />
@@ -2020,10 +2012,10 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='6' />
+      <active id='-1' />
       <simple-id uuid='{FDFB3181-39EE-4C0F-A64D-2C55A6B18E25}' />
     </window>
-    <window class='dashboard' name='Customer Insights'>
+    <window class='dashboard' maximized='true' name='Customer Insights'>
       <viewpoints>
         <viewpoint name='Customer Segmentation'>
           <zoom type='entire-view' />
@@ -2038,7 +2030,7 @@
       <active id='13' />
       <simple-id uuid='{CE9D9569-E032-42BC-AF54-D8EC9CFBCC9B}' />
     </window>
-    <window class='dashboard' maximized='true' name='Online Retail Sales &amp; Customer Insights'>
+    <window class='dashboard' name='Online Retail Sales &amp; Customer Insights'>
       <viewpoints />
       <active id='-1' />
       <simple-id uuid='{FAD6CA71-4B65-42AD-90A8-BEFACD8D3F3C}' />
